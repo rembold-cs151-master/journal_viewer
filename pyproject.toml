@@ -1,0 +1,15 @@
+[project]
+name = "journal-viewer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.5.5",
+    "pytz>=2026.3.post1",
+    "textual>=8.2.8",
+    "textual-plotext>=1.0.1",
+]
+
+[project.scripts]
+rj_viewer = "rj_viewer.rj_viewer:main"
